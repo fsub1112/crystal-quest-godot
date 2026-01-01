@@ -12,7 +12,7 @@ config_version=5
 
 config/name="Crystal Quest"
 config/description="A 3D action-adventure dungeon crawler with combat, enemies, and collectibles"
-run/main_scene="res://scenes/levels/level_01.tscn"
+run/main_scene="res://scenes/test_minimal.tscn"
 config/features=PackedStringArray("4.5", "Forward Plus")
 config/icon="res://icon.svg"
 
