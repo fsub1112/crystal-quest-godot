@@ -1,0 +1,42 @@
+# Godot 4+ specific ignores
+.godot/
+*.import
+*.translation
+
+# Imported translations (automatically generated from CSV files)
+*.import
+
+# Mono-specific ignores
+.mono/
+data_*/
+mono_crash.*.json
+
+# System/tool-specific ignores
+.DS_Store
+*.swp
+*.swo
+*~
+Thumbs.db
+
+# Build artifacts
+export_presets.cfg
+export/
+build/
+*.exe
+*.pck
+*.zip
+*.dmg
+*.app
+
+# IDE specific
+.vscode/
+.idea/
+*.code-workspace
+
+# Assets that are too large for git (download separately)
+assets/models/*
+assets/audio/*
+assets/textures/*
+!assets/models/.gitkeep
+!assets/audio/.gitkeep
+!assets/textures/.gitkeep
